@@ -8,3 +8,11 @@ a.btn svg {
     vertical-align: middle;
     width: 1.5em;
 }
+
+.idioma li {
+    width: 20%;
+}
+
+.idioma {
+    text-align: center;
+}

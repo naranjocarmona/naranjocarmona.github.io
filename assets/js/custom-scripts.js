@@ -376,12 +376,12 @@
        });
     
         function submitForm(){
-          var name = $("#name").val();
+          var name = $("#name").val() + " " + $("#L_name").val();
           var email = $("#email").val();
           var message = $("#message").val();
           $.ajax({
               type: "POST",
-              url: "process.php",
+              url: "https://formspree.io/f/xpzgzygj",
               data: "name=" + name + "&email=" + email + "&message=" + message,
               success : function(text){
                   if (text == "success"){
